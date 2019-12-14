@@ -24,11 +24,11 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  # spec.description  = <<-DESC
-  #                     NO_IDFA_BMKLocationKit
-  #                  DESC
+  spec.description  = <<-DESC
+                      NO_IDFA_BMKLocationKit
+                   DESC
 
-  spec.homepage     = "https://github.com/YangYueFan/NO_IDFA_BMKLocationKit"
+  spec.homepage     = "http://lbsyun.baidu.com/index.php?title=ios-locsdk"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = {  "baidu" => "417288384@qq.com" }
+  spec.author             = {  "baidu" => "loc-rd@baidu.com" }
   # Or just: spec.author    = ""
   # spec.authors            = { "" => "417288384@qq.com" }
   # spec.social_media_url   = "https://twitter.com/"
@@ -64,8 +64,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  # spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/YangYueFan/NO_IDFA_BMKLocationKit/NO_IDFA_BMKLocationKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/YangYueFan/NO_IDFA_BMKLocationKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
